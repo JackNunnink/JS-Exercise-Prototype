@@ -147,10 +147,10 @@ console.log(franky);
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global Binding: When 'this' is called inside the global scope it's value is that of the window or console object.
+  2. Implicit Binding: If a function recalled by a ".", whatever is left of that "." gets the 'this' property.
+  3. New Binding: Whenever a constructor function is written, 'this' refers to that object and then acts as a return function to that oject.
+  4. Explicit Binding: JS methods such as call or apply will explicitly define 'this' by a different function.
 */
 
 
